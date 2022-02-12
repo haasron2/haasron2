@@ -18,7 +18,6 @@ def create_connection(path):
     return connection
 
 
-
 def execute_read_query(connection, query):
     cursor = connection.cursor()
     result = None
